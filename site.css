@@ -1,4 +1,5 @@
 body {
+    padding: 180px;
     background-color: #F2FFFC;
     font-size: 120%;
     font-family: "Crimson Text", "Times New Roman", serif;
@@ -24,6 +25,10 @@ p{
 h2{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     font-size: 40px;
+    padding-bottom: 30px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 blockquote{
@@ -97,6 +102,19 @@ main div{
 .tag {
    text-align: left;
    color: black;
-   background-color: #F2FFFC;
+   background-color: #CCC;
+  
 }
 
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.cabecalho{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+}
