@@ -58,7 +58,7 @@ aside{
     display: inline-block;
 }
 
-aside, img{
+aside, .minha-foto{
     float: right;
     width: 15%;
     box-sizing: border-box;
