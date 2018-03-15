@@ -1,8 +1,8 @@
 body {
-    padding: 180px;
     background-color: #F2FFFC;
     font-size: 120%;
     font-family: "Crimson Text", "Times New Roman", serif;
+    line-height: 1.5;
 }
 main h1{
     font-size: 60px;
@@ -13,13 +13,13 @@ main h1{
     margin: 0;
     border-bottom: 10px solid black;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: uppercase;
 }
-h1, h2 {
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
-}   
 
 p{
     text-align: justify;
+    text-indent: 20px;
+    margin: 20px 0;
 }
 
 h2{
@@ -27,42 +27,60 @@ h2{
     font-size: 40px;
     padding-bottom: 30px;
     border-top: 1px solid #ccc;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    clear: both;
 }
 
 blockquote{
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
-    width: 250px;
+    width: 255px;
     box-sizing: border-box;
     text-align: justify;
-    padding: 16px;
+    padding: 5px;
 }
 
+.fiat{
+    float: right;
+}
+
+.petrobras{
+    float: left;
+}
 aside{
     background-color: #3C1D3D;
     color: #F2FFFC; 
-    border: 8px solid black;
     text-align: center;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     padding: 25px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+aside, img{
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
 
 footer{
     background-color: black;
     color: #F2FFFC; 
     font-family: "Open Sans Condensed", "Arial", sans-serif;
+    clear: both;
 }
 
 nav a {
     color: #F2FFFC;
     text-decoration: none;
+    text-transform: lowercase;
 }
 
 nav h1{
-    margin:  0;
-    
+    margin:  0;  
     font-size: 20px;
     padding: 10px;
 }
@@ -78,9 +96,9 @@ aside a {
 }
 
 ul li{
-        margin: 10px 10px 8px;
-        font-size: 15px;
-        text-align: center;
+    
+    font-size: 15px;
+    text-align: center;
 }
 
 main div{
@@ -92,11 +110,14 @@ main div{
 
 .icones-sociais li{
     display: inline-block;
+    
 }
 
-.sociais-rodape li{
-   margin: 60px;
-   display: inline-block;
+.icones-sociais a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-indent: -9999px;
 }
 
 .tag {
@@ -112,9 +133,47 @@ article {
     margin-bottom: 20px;
 }
 
-.cabecalho{
-    position: fixed;
-    top:0;
-    left: 0;
-    right: 0;
+.twitter{
+    background-image: url(twitter.png);
+}
+
+.linkedin{
+    background-image: url(linkedin.png);
+}
+
+.github{
+    background-image: url(github.png);
+}
+
+main{
+    float: left;
+    width: 85%;
+}
+
+cite{
+    text-align: right;
+    float: right;
+    display: block;
+    font-style: italic;
+    padding: 20px;
+}
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.texto1{
+    width: 450px;
+    box-sizing: border-box;
+    margin-left: -10px;
+}
+
+.texto2{
+    padding: 10px;
+    margin-left: 280px;
 }
