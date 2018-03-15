@@ -56,6 +56,7 @@ aside{
     padding: 25px;
     box-sizing: border-box;
     display: inline-block;
+    
 }
 
 aside, .minha-foto{
@@ -176,4 +177,11 @@ strong{
 .texto2{
     padding: 10px;
     margin-left: 280px;
+}
+
+aside{
+    clear:right;
+    width: 15%;
+    position: relative;
+    top:310px;
 }
