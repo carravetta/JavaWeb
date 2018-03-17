@@ -61,7 +61,6 @@ aside{
 
 aside, .minha-foto{
     float: right;
-    width: 15%;
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
