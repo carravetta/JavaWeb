@@ -1,0 +1,41 @@
+.bmw{
+    float: left;
+    box-sizing: border-box;
+    border: 8px solid black;
+}
+
+.uol{
+    float: right;
+    clear: right;
+
+}
+
+.ibm{
+    float: left
+    
+}
+
+.g1{
+    float:right;
+    
+}
+
+.fig{
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.img-sites{
+    width: 300px;
+    box-sizing: border-box;
+}
+
+li{
+    background: #FAFFFC;
+}
+
+a{
+    margin: 16px;
+    box-sizing: border-box;
+    border: 8px solid black;
+}
