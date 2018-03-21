@@ -1,0 +1,35 @@
+blockquote{
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 255px;
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 5px;
+}
+
+.fiat{
+    float: right;
+}
+
+.petrobras{
+    float: left;
+}
+
+cite{
+    text-align: right;
+    float: right;
+    display: block;
+    font-style: italic;
+    padding: 20px;
+}
+
+.texto1{
+    width: 450px;
+    box-sizing: border-box;
+    margin-left: -10px;
+}
+
+.texto2{
+    padding: 10px;
+    margin-left: 280px;
+}
