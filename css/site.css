@@ -111,9 +111,6 @@ main div{
     text-indent: -9999px;
 }
 
-
-
-
 .twitter{
     background-image: url(../img/twitter.png);
 }
@@ -129,6 +126,7 @@ main div{
 main{
     float: left;
     width: 85%;
+    padding-bottom: 30px;
 }
 
 .container {

@@ -30,12 +30,17 @@
     box-sizing: border-box;
 }
 
-li{
+main li{
     background: #FAFFFC;
 }
 
-a{
+main a{
     margin: 16px;
     box-sizing: border-box;
     border: 8px solid black;
+}
+
+figcaption{
+    padding: 16px;
+    background: #FAFFFC;
 }
