@@ -10,7 +10,6 @@ main h1{
     color:white; 
     text-align: center;
     padding: 40px;
-
     margin: 0;
     border-bottom: 10px solid black;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
@@ -32,9 +31,6 @@ h2{
     margin-bottom: 30px;
     clear: both;
 }
-
-
-
 
 .navegacao-site{
     background-color: #3C1D3D;
